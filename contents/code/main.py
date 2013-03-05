@@ -26,7 +26,7 @@ class HoogleRunner(plasmascript.Runner):
         """
         Initialize and register with Plasma.
         """
-        self.myIcon = QIcon("contents/images/lambda.svg")
+        self.myIcon = QIcon(self.package().filePath("images", "lambda.svg"))
         self.regExp = QRegExp("^hoogle (.*)$")
         syntax = Plasma.RunnerSyntax("hoogle :q:", "Query hoogle for :q:")
         self.addSyntax(syntax)

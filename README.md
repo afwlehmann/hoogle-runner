@@ -12,16 +12,17 @@ Simply hit whatever key combo you have configured for [krunner](http://userbase.
 hoogle (a -> b) -> [a] -> [b]
 ```
 
+Hit Enter and happily browse the results of your query.
+
 ## Installation
 
 ### Requirements
-- [PyQt4](http://www.riverbankcomputing.co.uk/software/pyqt/)
 - [PyKDE4](http://techbase.kde.org/Development/Languages/Python)
 
-Both easily installed, for example, via Ubuntu's package management system like so:
+Easily installed, for example, via Ubuntu's package management system like so:
 
 ```bash
-sudo apt-get install python3-pyqt4 python3-pykde4
+sudo apt-get install python3-pykde4
 ```
 
 ### Once you have what you need

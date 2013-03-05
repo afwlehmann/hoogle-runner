@@ -14,6 +14,10 @@ hoogle (a -> b) -> [a] -> [b]
 
 Hit Enter and happily browse the results of your query.
 
+## What does it have that others don't have?
+
+It has its own icon! ;-)
+
 ## Installation
 
 ### Requirements
@@ -32,11 +36,11 @@ sudo apt-get install python3-pykde4
   git clone https://github.com/afwlehmann/hoogle-runner.git
   ```
   
-Then **either**
-- Install to your `~/.kde` folder and restart [krunner](http://userbase.kde.org/Plasma/Krunner) via
+Then cd into `hoogle-runner` and **either**
+- install to your `~/.kde` folder and restart [krunner](http://userbase.kde.org/Plasma/Krunner) manually via
 
   ```bash
-  plasmapkg --type runner -i master.zip
+  plasmapkg --type runner -i .
   kquitapp krunner
   sleep 3
   krunner
@@ -44,4 +48,8 @@ Then **either**
   
 **or**
 
-- Simply use the `install.sh` script from the archive ;-)
+- simply use installer from the archive ;-)
+
+  ```bash
+  . install.sh
+  ```

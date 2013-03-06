@@ -4,7 +4,7 @@ Quick and hassle-free access to [Hoogle](http://haskell.org/hoogle) via [krunner
 
 ![Screenshot](https://raw.github.com/afwlehmann/hoogle-runner/master/screenshot.png)
 
-Keep hacking in your [favorite IDE](http://www.gnu.org/software/emacs/), no need to move your fingers off the keyboard and use the mouse.
+Keep hacking in your favorite IDE, no need to move your fingers off the keyboard and use the mouse.
 
 Simply hit whatever key combo you have configured for [krunner](http://userbase.kde.org/Plasma/Krunner) (defaults to `Alt-F2`) and start your query by typing `hoogle` followed by a space and whatever it is you are looking for, e.g.
 

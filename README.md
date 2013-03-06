@@ -48,7 +48,7 @@ Then cd into `hoogle-runner` and **either**
   
 **or**
 
-- simply use installer from the archive ;-)
+- simply use the provided installer from the archive ;-)
 
   ```bash
   . install.sh

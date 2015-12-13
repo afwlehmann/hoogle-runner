@@ -30,12 +30,13 @@ sudo apt-get install python3-pykde4
 ```
 
 ### Once you have what you need
-- Clone this repository
 
-  ```bash
-  git clone https://github.com/afwlehmann/hoogle-runner.git
-  ```
-  
+Clone this repository
+
+```bash
+git clone https://github.com/afwlehmann/hoogle-runner.git
+```
+
 Then cd into `hoogle-runner` and **either**
 - install to your `~/.kde` folder and restart [krunner](http://userbase.kde.org/Plasma/Krunner) manually via
 
@@ -45,7 +46,7 @@ Then cd into `hoogle-runner` and **either**
   sleep 3
   krunner
   ```
-  
+
 **or**
 
 - simply use the provided installer from the archive ;-)
